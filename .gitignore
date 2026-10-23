@@ -1,0 +1,24 @@
+# Recreate Vivado outputs from scripts/create_project.tcl and the XCI sources.
+/build/
+/Prj/
+/IP/*/*
+!/IP/*/*.xci
+**/.Xil/
+*.xcix
+*.jou
+*.log
+*.str
+*.pb
+*.wdb
+*.wcfg
+*.dcp
+*.bit
+*.ltx
+*.vcd
+*.cf
+dfx_runtime.txt
+xsim.dir/
+__pycache__/
+.DS_Store
+Thumbs.db
+.vscode/
